@@ -379,6 +379,16 @@ export default function App() {
                 onNavigateToMarketplace={() => setActiveView('marketplace')}
               />
             )}
+           {activeView === 'creator' && (
+             <CourseCreatorView
+               studentName={profile.name}
+               studentGrade={profile.grade}
+               interests={STUDENT_INTERESTS}
+               initialInterest={profile.selectedInterest}
+               onCourseCreated={handleCourseCreated}
+               onNavigateToClassroom={() => setActiveView('learn')}
+              />
+             )}
 
             {activeView === 'marketplace' && (
               <MarketplaceView

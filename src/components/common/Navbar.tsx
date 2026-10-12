@@ -311,6 +311,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="flex items-center gap-2 py-2 overflow-x-auto no-scrollbar border-t border-slate-800/40 text-xs">
           {[
             { id: 'learn', label: 'Interactive Classroom', icon: GraduationCap },
+            { id: 'creator', label: 'AI Course Studio', icon: Sparkles },
             { id: 'marketplace', label: 'Course Store & Plans', icon: Store },
             { id: 'analytics', label: 'Student Analytics', icon: BarChart2 },
             { id: 'settings', label: 'Settings & LMS Hooks', icon: Settings },
