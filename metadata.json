@@ -1,0 +1,11 @@
+{
+  "name": "CogniSphere AI - Gamified 3D Adaptive EdTech",
+  "description": "Adaptive, gamified EdTech platform with interest-personalized 3D interactive lessons, AI tutor agent, real-time camera focus analytics, SME curriculum studio, and parent portal.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
